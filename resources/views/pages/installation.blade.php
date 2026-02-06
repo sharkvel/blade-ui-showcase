@@ -20,7 +20,7 @@
     <x-ui.h6 class="mt-12 font-medium">2. Install library</x-ui.h6>
     <x-ui.p class="mt-2">Add library using composer package manager to your project.</x-ui.p>
     <div class="mt-6 rounded-lg border p-1">
-        <x-ui.codelight language="shell">composer require jaypalsapara/blade-ui</x-ui.codelight>
+        <x-ui.codelight language="shell">composer require sharkvel/blade-ui</x-ui.codelight>
     </div>
 
     {{-- Initialize library --}}

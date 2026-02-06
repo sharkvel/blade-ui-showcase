@@ -1,0 +1,18 @@
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--border);
+        scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+}
