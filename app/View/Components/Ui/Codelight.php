@@ -28,8 +28,15 @@ class Codelight extends Component
      */
     public function render(): View|Closure|string
     {
-        if (! empty($this->example)) {
-            $path = resource_path('views/'.str_replace('.', '/', $this->example).'.blade.php');
+        if (!empty($this->example)) {
+            $path = resource_path(
+                'views/' .
+                (
+                    $this->language === 'blade'
+                    ? str_replace('.', '/', $this->example) . '.blade.php'
+                    : $this->example
+                )
+            );
             $this->example = file_exists($path) ? trim(file_get_contents($path)) : null;
         }
 
