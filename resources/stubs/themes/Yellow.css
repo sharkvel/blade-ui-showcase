@@ -32,6 +32,8 @@
     --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
     --sidebar-border: oklch(0.92 0.004 286.32);
     --sidebar-ring: oklch(0.852 0.199 91.936);
+    --scrollbar-track: oklch(0.985 0 0);
+    --scrollbar-thumb: oklch(70.5% 0.015 286.067);
 }
 
 .dark {
@@ -67,4 +69,6 @@
     --sidebar-accent-foreground: oklch(0.985 0 0);
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.421 0.095 57.708);
+    --scrollbar-track: oklch(0.21 0.006 285.885);
+    --scrollbar-thumb: oklch(70.5% 0.015 286.067);
 }
