@@ -25,11 +25,7 @@
         official site for more information:
     </x-ui.p>
     <div class="mt-6 rounded-lg border p-1">
-        <x-ui.codelight language="shell">
-            npm install tailwindcss
-            @tailwindcss
-            /vite
-        </x-ui.codelight>
+        <x-ui.codelight language="shell">npm install tailwindcss @tailwindcss/vite</x-ui.codelight>
     </div>
     <x-ui.p>
         Add the

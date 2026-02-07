@@ -40,6 +40,4 @@
         {{-- On this page sidebar --}}
         <x-on-this-page-sidebar :on-this-page="$onThisPage" />
     </div>
-    {{-- Footer --}}
-    <x-footer />
 </x-app-layout>
