@@ -11,7 +11,7 @@ class SidebarMenuSub extends Component
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'flex flex-col gap-1 mx-3.5 px-2.5 py-0.5 border-l';
+    protected string $baseClasses = 'border-sidebar-border flex flex-col gap-1 mx-3.5 px-2.5 py-0.5 border-l';
 
     /**
      * Create a new component instance.

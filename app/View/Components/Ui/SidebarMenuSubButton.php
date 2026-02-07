@@ -11,7 +11,7 @@ class SidebarMenuSubButton extends Component
     /**
      * Base Classes
      */
-    protected string $baseClasses = "flex h-7 w-full items-center gap-2 rounded-md px-2 hover:bg-muted data-[active='true']:font-medium data-[active='true']:bg-muted [&_svg]:size-4";
+    protected string $baseClasses = "flex h-7 w-full items-center gap-2 rounded-md px-2 text-sidebar-foreground ring-sidebar-ring hover:bg-sidebar-accent hover:text-sidebar-accent-foreground active:bg-sidebar-accent active:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground [&_svg]:size-4 [&>svg]:text-sidebar-accent-foreground";
 
     /**
      * Create a new component instance.

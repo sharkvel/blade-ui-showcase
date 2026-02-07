@@ -11,7 +11,7 @@ class Sidebar extends Component
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'flex h-full flex-col w-3xs max-h-svh fixed left-0 top-0 z-10 -translate-x-full md:translate-x-0 will-change-transform';
+    protected string $baseClasses = 'flex h-full flex-col w-3xs max-h-svh fixed left-0 top-0 z-10 -translate-x-full md:translate-x-0 will-change-transform bg-sidebar text-sidebar-foreground border-sidebar-border';
 
     /**
      * Create a new component instance.

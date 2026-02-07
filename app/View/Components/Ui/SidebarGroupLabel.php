@@ -11,7 +11,7 @@ class SidebarGroupLabel extends Component
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'flex h-8 items-center px-2 text-xs text-muted-foreground';
+    protected string $baseClasses = 'flex h-8 items-center px-2 text-xs text-sidebar-foreground/70 ring-sidebar-ring';
 
     /**
      * Create a new component instance.

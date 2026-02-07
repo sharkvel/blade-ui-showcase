@@ -11,7 +11,7 @@ class SidebarContainer extends Component
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'flex min-h-svh';
+    protected string $baseClasses = 'flex min-h-svh bg-sidebar';
 
     /**
      * Create a new component instance.
