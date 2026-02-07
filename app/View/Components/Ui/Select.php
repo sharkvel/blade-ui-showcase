@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\Ui\Select;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
@@ -53,7 +53,7 @@ class Select extends Component
                 $this->sizeClasses[$this->size]
             );
 
-            return view('components.ui.select._select', compact('attributes'));
+            return view('components.ui.select', compact('attributes'));
         };
     }
 }

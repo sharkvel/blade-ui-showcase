@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\Ui\Select;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Option extends Component
+class SelectOption extends Component
 {
     /**
      * Base Classes
@@ -31,7 +31,7 @@ class Option extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.select.option', compact('attributes'));
+            return view('components.ui.select-option', compact('attributes'));
         };
     }
 }
