@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\Ui\Table;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Tbody extends Component
+class Table extends Component
 {
     /**
      * Base Classes
      */
-    protected string $baseClasses = '[&_tr:last-child]:border-0';
+    protected string $baseClasses = 'w-full caption-bottom text-sm overflow-hidden relative';
 
     /**
      * Create a new component instance.
@@ -31,7 +31,7 @@ class Tbody extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.table.tbody', compact('attributes'));
+            return view('components.ui.table', compact('attributes'));
         };
     }
 }

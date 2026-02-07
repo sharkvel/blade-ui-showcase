@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\Ui\Table;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Th extends Component
+class TableBody extends Component
 {
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'text-foreground h-10 px-4 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 *:[[role=checkbox]]:translate-y-0.5';
+    protected string $baseClasses = '[&_tr:last-child]:border-0';
 
     /**
      * Create a new component instance.
@@ -31,7 +31,7 @@ class Th extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.table.th', compact('attributes'));
+            return view('components.ui.table-body', compact('attributes'));
         };
     }
 }

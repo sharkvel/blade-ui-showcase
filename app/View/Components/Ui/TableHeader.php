@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\Ui\Table;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Thead extends Component
+class TableHeader extends Component
 {
     /**
      * Base Classes
@@ -31,7 +31,7 @@ class Thead extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.table.thead', compact('attributes'));
+            return view('components.ui.table-header', compact('attributes'));
         };
     }
 }

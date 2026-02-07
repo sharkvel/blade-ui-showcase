@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\Ui\Table;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Tr extends Component
+class TableCaption extends Component
 {
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors';
+    protected string $baseClasses = 'text-muted-foreground mt-4 text-sm';
 
     /**
      * Create a new component instance.
@@ -31,7 +31,7 @@ class Tr extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.table.tr', compact('attributes'));
+            return view('components.ui.table-caption', compact('attributes'));
         };
     }
 }

@@ -1,17 +1,17 @@
 <?php
 
-namespace App\View\Components\Ui\Table;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Table extends Component
+class TableRow extends Component
 {
     /**
      * Base Classes
      */
-    protected string $baseClasses = 'w-full caption-bottom text-sm overflow-hidden relative';
+    protected string $baseClasses = 'hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors';
 
     /**
      * Create a new component instance.
@@ -31,7 +31,7 @@ class Table extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.table._table', compact('attributes'));
+            return view('components.ui.table-row', compact('attributes'));
         };
     }
 }

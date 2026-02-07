@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\Ui\Table;
+namespace App\View\Components\Ui;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Tfoot extends Component
+class TableFooter extends Component
 {
     /**
      * Base Classes
@@ -31,7 +31,7 @@ class Tfoot extends Component
                 $this->baseClasses,
             );
 
-            return view('components.ui.table.tfoot', compact('attributes'));
+            return view('components.ui.table-footer', compact('attributes'));
         };
     }
 }
