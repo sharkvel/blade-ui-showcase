@@ -117,13 +117,16 @@
 
     {{-- Icons --}}
     <div>
-        <x-ui.button size="lg" variant="outline" size="icon-lg">
+        <x-ui.button variant="outline" size="icon-lg">
             <i data-lucide="globe"></i>
         </x-ui.button>
         <x-ui.button variant="outline" size="icon">
             <i data-lucide="globe"></i>
         </x-ui.button>
-        <x-ui.button size="sm" variant="outline" size="icon-sm">
+        <x-ui.button variant="outline" size="icon-sm">
+            <i data-lucide="globe"></i>
+        </x-ui.button>
+        <x-ui.button variant="outline" size="icon-xs">
             <i data-lucide="globe"></i>
         </x-ui.button>
     </div>
