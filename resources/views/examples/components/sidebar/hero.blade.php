@@ -6,7 +6,7 @@
                 <x-ui.sidebar-menu>
                     <x-ui.sidebar-menu-item>
                         <x-ui.sidebar-menu-button class="h-12">
-                            <div class="flex size-8 items-center justify-center rounded-sm bg-blue-600">
+                            <div class="flex size-8 items-center justify-center rounded-sm bg-blue-600 text-white">
                                 <i data-lucide="command"></i>
                             </div>
                             <div class="flex flex-col">
